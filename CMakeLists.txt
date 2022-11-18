@@ -10,3 +10,4 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_SOURCE_DIR}/bin)
 
 add_subdirectory(01_Strategy)
+add_subdirectory(02_Observer)
