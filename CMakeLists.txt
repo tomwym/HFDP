@@ -11,3 +11,4 @@ set(EXECUTABLE_OUTPUT_PATH ${CMAKE_SOURCE_DIR}/bin)
 
 add_subdirectory(01_Strategy)
 add_subdirectory(02_Observer)
+add_subdirectory(03_Decorator)

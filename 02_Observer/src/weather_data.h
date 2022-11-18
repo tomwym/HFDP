@@ -13,7 +13,7 @@ public:
     , _humidity{0}
     , _pressure{0}
     {}
-    
+
     virtual void register_observer(Observer* o) override {
         _observers.insert(o);
     }
