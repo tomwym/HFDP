@@ -14,13 +14,9 @@ public:
     , _beverage{beverage}
     {}
 
-    virtual double cost() {
-        return _beverage->cost() + _cost;
-    }
+    virtual double cost() = 0;
 
-    virtual std::string get_description() override {
-        return _beverage->get_description() + ", " + _description;
-    }
+    virtual std::string get_description() = 0;
 
 protected:
     std::shared_ptr<Beverage> _beverage;
